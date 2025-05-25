@@ -2,7 +2,7 @@
 
 Este projeto é um sistema simples de cadastro e controle de estoque de livros, desenvolvido em PHP com integração ao banco de dados MySQL. Ele permite que o usuário cadastre livros com informações básicas, visualize os livros já cadastrados em forma de tabela e veja o valor total em estoque de cada item.
 
-## 🔧 Funcionalidades
+## Funcionalidades
 
 * Cadastro de livros com os campos:
 
@@ -17,7 +17,7 @@ Este projeto é um sistema simples de cadastro e controle de estoque de livros, 
 * Interface simples e responsiva utilizando Bootstrap
 * Navegação por menu entre a Home e a listagem de livros
 
-## 🥺 Validações
+## Validações
 
 As validações são realizadas no backend:
 
@@ -25,7 +25,7 @@ As validações são realizadas no backend:
 * O preço deve ser um número decimal válido
 * A quantidade deve ser um número inteiro maior que zero
 
-## 📃 Estrutura do Banco de Dados
+## Estrutura do Banco de Dados
 
 A tabela usada é `tb_livros`, com os seguintes campos:
 
@@ -37,7 +37,7 @@ A tabela usada é `tb_livros`, com os seguintes campos:
 | preco      | DECIMAL(10,2) |                                 |
 | quantidade | INT           |                                 |
 
-## 📁 Organização dos Arquivos
+## Organização dos Arquivos
 
 * `index.php`: Formulário de cadastro dos livros
 * `estoque.php`: Processa o formulário, valida os dados e insere no banco
@@ -46,7 +46,7 @@ A tabela usada é `tb_livros`, com os seguintes campos:
 * `conexao.php`: Arquivo de conexão com o banco de dados
 * `validacoes.php`: Arquivo com funções de validação e cálculo
 
-## ✅ Como usar
+## Como usar
 
 1. Instale o XAMPP e inicie o Apache e o MySQL.
 2. Crie o banco de dados e a tabela `tb_livros` no phpMyAdmin.
